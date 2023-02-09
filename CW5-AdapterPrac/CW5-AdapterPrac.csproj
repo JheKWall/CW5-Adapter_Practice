@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BearAdapter.cs" />
+    <Compile Include="Grizzly.cs" />
     <Compile Include="IBear.cs" />
     <Compile Include="IToyBear.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeddyBear.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

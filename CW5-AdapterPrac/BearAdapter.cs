@@ -8,5 +8,6 @@ namespace CW5_AdapterPrac
 {
     internal class BearAdapter
     {
+
     }
 }

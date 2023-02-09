@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CW5_AdapterPrac
 {
-    interface IToyBear
+    internal interface IToyBear
     {
         void hug();
     }
