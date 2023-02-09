@@ -6,8 +6,21 @@ using System.Threading.Tasks;
 
 namespace CW5_AdapterPrac
 {
-    internal class BearAdapter
+    public class BearAdapter : IToyBear
     {
+        // bear adaptee
+        IBear bear;
 
+        // bear constructor
+        public BearAdapter(IBear bear)
+        {
+            this.bear = bear;
+        }
+
+        // hug override
+        public void hug()
+        {
+            bear.maul();
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CW5_AdapterPrac
 {
-    internal interface IBear
+    public interface IBear
     {
         void maul();
         void hibernate();
