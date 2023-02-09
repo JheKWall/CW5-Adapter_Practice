@@ -1,5 +1,9 @@
 # CW5-Adapter_Practice
 
+### For grading:
+- Implementation is in CW5-AdapterPrac/
+- UML is in CW5-JKW.dia (base folder)
+
 ### Interesting Notes:
 - There is an accesibility error with BearAdapter's constructor if:
 1. BearAdapter is not specified as public
